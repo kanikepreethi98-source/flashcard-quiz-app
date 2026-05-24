@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 450px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #4b0082;
+}
+
+.card {
+    text-align: center;
+    margin: 20px 0;
+    background: #f5f7ff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#question {
+    color: #333;
+    font-size: 24px;
+}
+
+#answer {
+    color: #006400;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+#showBtn {
+    background-color: #6a5acd;
+}
+
+#nextBtn,
+#prevBtn {
+    background-color: #20b2aa;
+}
+
+#addBtn {
+    background-color: #32cd32;
+    width: 100%;
+}
+
+#editBtn {
+    background-color: #ffa500;
+}
+
+#deleteBtn {
+    background-color: #dc143c;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.navigation,
+.actions {
+    text-align: center;
+}
